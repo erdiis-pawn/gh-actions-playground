@@ -12,3 +12,4 @@ jobs:
     steps:
     - run: echo "test pipeline foo"
     - run: echo "${{ secrets.FOO }}"
+    - run: echo "and in a second commit, that does NOT change the trigger event?"
